@@ -3,8 +3,21 @@ body {
   font-style: normal;
   color: #212121;
 }
-.logo {
+.header-logo {
   color: #000000;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.footer-logo {
+  color: #fff;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -18,16 +31,6 @@ body {
 }
 .logospan {
   color: #2196f3;
-  /* width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em; */
 }
 .nav-links .nav-link {
   color: #212121;
