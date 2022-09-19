@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="Homework-2" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Студія</title>
   </head>
   <body>
@@ -14,8 +20,8 @@
       <nav class="nav-links">
         <!--Навігаційне меню-->
         <ul>
-          <li><a class="nav-link" href="">Студія</a></li>
-          <li><a class="nav-link" href="">Портфоліо</a></li>
+          <li><a class="nav-link" href="./index.html">Студія</a></li>
+          <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="nav-link" href="">Контакти</a></li>
         </ul>
       </nav>
@@ -28,9 +34,9 @@
     <!--Унікальний контент сторінки-->
     <main>
       <!--Реклама-->
-      <section class="head">
+      <section class="promo">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <button class="promo-button" type="button">Замовити послугу</button>
       </section>
       <!--Особливості-->
       <section>
@@ -109,20 +115,20 @@
       </section>
     </main>
     <!--Підвал сторінки-->
-    <footer>
+    <footer class="footer">
       <a class="logo" href="./index.html"><span class="logospan">Web</span>Studio</a>
-      <address>
-        <ul>
+      <address class="address">
+        <ul class="address-list">
           <li>
-            <a
+            <a class="address-map"
               href="https://goo.gl/maps/uBSmtqLPdZ89o5kn9"
               target="_blank"
               rel="noopener noreferrer"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

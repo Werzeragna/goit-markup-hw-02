@@ -1,13 +1,9 @@
-.body {
-  width: 1600px;
-  height: 2346px;
-  background: #ffffff;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #212121;
 }
-.header {
-    width: 1600px;
-    height: 80px;
-}
-.logo {
+.logo  {
   color: #000000;
   width: 145px;
   height: 31px;
@@ -19,14 +15,22 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  cursor: default;
 }
 .logospan {
   color: #2196f3;
+  /* width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em; */
 }
 .nav-links .nav-link {
   color: #212121;
-  cursor: pointer;
 }
 .nav-links .nav-link:hover,
 .nav-links .nav-link:focus {
@@ -38,13 +42,45 @@
 .mlink:hover,
 .mlink:focus {
   color: #2196f3;
-  cursor: pointer;
 }
 .tlink {
   color: #757575;
-  cursor: default;
 }
-.head {
-    width: 1600px;
-    height: 600px;
+.filter-buttons .filter-button {
+background-color: #F5F4FA;
+cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+background-color: #2196f3;
+color: #fff;
+cursor: pointer;
+}
+.promo {
+  background-color: #2F303A;
+  color: #fff;
+}
+.promo-button {
+  background-color: #2196F3;
+  color: #fff;
+  cursor: pointer;
+}
+.promo-button:hover,
+.promo-button:focus {
+  background-color: #188CE8;
+  color: #fff;
+  cursor: pointer;
+}
+.footer {
+  background-color: #2F303A;
+}
+.address {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+.address-map {
+  color: #fff;
+}
+.address-mail, .address-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
