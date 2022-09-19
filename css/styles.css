@@ -3,7 +3,7 @@ body {
   font-style: normal;
   color: #212121;
 }
-.logo  {
+.logo {
   color: #000000;
   width: 145px;
   height: 31px;
@@ -47,32 +47,32 @@ body {
   color: #757575;
 }
 .filter-buttons .filter-button {
-background-color: #F5F4FA;
-cursor: pointer;
+  background-color: #f5f4fa;
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
-background-color: #2196f3;
-color: #fff;
-cursor: pointer;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
 }
 .promo {
-  background-color: #2F303A;
+  background-color: #2f303a;
   color: #fff;
 }
 .promo-button {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #fff;
   cursor: pointer;
 }
 .promo-button:hover,
 .promo-button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
   color: #fff;
   cursor: pointer;
 }
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 .address {
   font-family: 'Roboto';
@@ -81,6 +81,7 @@ cursor: pointer;
 .address-map {
   color: #fff;
 }
-.address-mail, .address-tel {
+.address-mail,
+.address-tel {
   color: rgba(255, 255, 255, 0.6);
 }
