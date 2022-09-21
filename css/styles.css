@@ -55,7 +55,7 @@ a {
 }
 .mlink:hover,
 .mlink:focus {
-  color: var(--blubrand-color)
+  color: var(--blubrand-color);
 }
 .tlink {
   color: #757575;
@@ -67,9 +67,9 @@ a {
   color: #fff;
 }
 .promo-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
   background-color: var(--blubrand-color);
   color: #fff;
   cursor: pointer;
@@ -81,36 +81,36 @@ a {
   cursor: pointer;
 }
 .skill {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .skill-description {
-    /* font-weight: 400; */
-    font-size: 14px;
-    line-height: 1.71;
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 1.71;
 }
 .we-are {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 .name {
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .rank {
-    font-size: 16px;
-    line-height: 19px;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .filter-button {
   background-color: #f5f4fa;
   cursor: pointer;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -124,12 +124,12 @@ a {
 .address > .footer-logo {
   font-size: 14px;
   line-height: 1.71;
-  }
+}
 .address-map {
   color: #fff;
   font-size: 14px;
-    line-height: 1.71;
-    font-style: normal;
+  line-height: 1.71;
+  font-style: normal;
 }
 .address-mail,
 .address-tel {
@@ -137,7 +137,6 @@ a {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-
 }
 .hide {
   display: none;
@@ -147,16 +146,16 @@ a {
 }
 .promo-txt {
   font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 }
 .project-name {
-font-weight: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .project-type {
-font-size: 16px;
+  font-size: 16px;
   line-height: 1.88;
 }
