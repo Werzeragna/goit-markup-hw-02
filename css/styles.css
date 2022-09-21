@@ -1,7 +1,14 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  color: #212121;
+  color: var(--brand-color);
+}
+:root {
+  --brand-color: #212121;
+  --blubrand-color: #2196f3;
+}
+a {
+  text-decoration: none;
 }
 .header-logo {
   color: #000000;
@@ -13,7 +20,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .footer-logo {
@@ -26,45 +33,44 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logospan {
-  color: #2196f3;
+  color: var(--blubrand-color);
 }
 .nav-links .nav-link {
-  color: #212121;
+  color: var(--brand-color);
+  font-weight: 500;
+  line-height: 1.14;
 }
 .nav-links .nav-link:hover,
 .nav-links .nav-link:focus {
-  color: #2196f3;
+  color: var(--blubrand-color);
 }
 .mlink {
   color: #757575;
+  font-weight: 500;
+  line-height: 1.14;
 }
 .mlink:hover,
 .mlink:focus {
-  color: #2196f3;
+  color: var(--blubrand-color)
 }
 .tlink {
   color: #757575;
-}
-.filter-buttons .filter-button {
-  background-color: #f5f4fa;
-  cursor: pointer;
-}
-.filter-button:hover,
-.filter-button:focus {
-  background-color: #2196f3;
-  color: #fff;
-  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.14;
 }
 .promo {
   background-color: #2f303a;
   color: #fff;
 }
 .promo-button {
-  background-color: #2196f3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+  background-color: var(--blubrand-color);
   color: #fff;
   cursor: pointer;
 }
@@ -74,17 +80,83 @@ body {
   color: #fff;
   cursor: pointer;
 }
+.skill {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.skill-description {
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.71;
+}
+.we-are {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.name {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.rank {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.filter-button {
+  background-color: #f5f4fa;
+  cursor: pointer;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--blubrand-color);
+  color: #fff;
+  cursor: pointer;
+}
 .footer {
   background-color: #2f303a;
 }
-.address {
-  font-family: 'Roboto';
-  font-style: normal;
-}
+.address > .footer-logo {
+  font-size: 14px;
+  line-height: 1.71;
+  }
 .address-map {
   color: #fff;
+  font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
 }
 .address-mail,
 .address-tel {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+
+}
+.hide {
+  display: none;
+}
+.list {
+  list-style-type: none;
+}
+.promo-txt {
+  font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+.project-name {
+font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.project-type {
+font-size: 16px;
+  line-height: 1.88;
 }
