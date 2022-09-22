@@ -5,10 +5,18 @@ body {
 }
 :root {
   --brand-color: #212121;
-  --blubrand-color: #2196f3;
+  --bluebrand-color: #2196f3;
+  --discription-color: #757575;
 }
 a {
   text-decoration: none;
+}
+header {
+  font-size: 14px;
+}
+footer {
+  font-size: 14px;
+  background-color: #2f303a;
 }
 .header-logo {
   color: #000000;
@@ -37,7 +45,7 @@ a {
   letter-spacing: 0.03em;
 }
 .logospan {
-  color: var(--blubrand-color);
+  color: var(--bluebrand-color);
 }
 .nav-links .nav-link {
   color: var(--brand-color);
@@ -46,7 +54,7 @@ a {
 }
 .nav-links .nav-link:hover,
 .nav-links .nav-link:focus {
-  color: var(--blubrand-color);
+  color: var(--bluebrand-color);
 }
 .mlink {
   color: #757575;
@@ -55,12 +63,16 @@ a {
 }
 .mlink:hover,
 .mlink:focus {
-  color: var(--blubrand-color);
+  color: var(--bluebrand-color);
 }
 .tlink {
   color: #757575;
   font-weight: 500;
   line-height: 1.14;
+}
+.tlink:hover,
+.tlink:focus {
+  color: var(--bluebrand-color);
 }
 .promo {
   background-color: #2f303a;
@@ -70,7 +82,7 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  background-color: var(--blubrand-color);
+  background-color: var(--bluebrand-color);
   color: #fff;
   cursor: pointer;
 }
@@ -84,25 +96,30 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  color: var(--brand-color);
 }
 .skill-description {
   /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
+  color: var(--discription-color);
 }
 .we-are {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  color: var(--brand-color);
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  color: var(--brand-color);
 }
 .rank {
   font-size: 16px;
   line-height: 19px;
+  color: var(--discription-color);
 }
 
 .filter-button {
@@ -114,29 +131,33 @@ a {
 }
 .filter-button:hover,
 .filter-button:focus {
-  background-color: var(--blubrand-color);
+  background-color: var(--bluebrand-color);
   color: #fff;
   cursor: pointer;
 }
-.footer {
-  background-color: #2f303a;
-}
-.address > .footer-logo {
-  font-size: 14px;
+.address {
   line-height: 1.71;
 }
 .address-map {
   color: #fff;
-  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+}
+.address-map:hover,
+.address-map:focus {
+  color: var(--bluebrand-color);
 }
 .address-mail,
 .address-tel {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+}
+.address-mail:hover,
+.address-tel:hover,
+.address-mail:focus,
+.address-tel:focus {
+  color: var(--bluebrand-color);
 }
 .hide {
   display: none;
@@ -149,13 +170,16 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 .project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  color: var(--brand-color);
 }
 .project-type {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--discription-color);
 }
