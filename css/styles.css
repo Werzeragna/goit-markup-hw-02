@@ -47,13 +47,16 @@ footer {
 .logospan {
   color: var(--bluebrand-color);
 }
-.nav-links .nav-link {
+.nav-link {
   color: var(--brand-color);
   font-weight: 500;
   line-height: 1.14;
 }
-.nav-links .nav-link:hover,
-.nav-links .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bluebrand-color);
+}
+.active-link {
   color: var(--bluebrand-color);
 }
 .mlink {
